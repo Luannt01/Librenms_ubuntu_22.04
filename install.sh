@@ -1,7 +1,7 @@
 # LibreNMS Install script
 # NOTE: Script wil update and upgrade currently installed packages.
 # forked from straytripod/LibreNMS-Install
-# created and maintained from rawIce/LibreNMS-Install
+# created and maintained from Luannt/LibreNMS-Install
 #!/bin/bash
 
 ##### Check if sudo
@@ -12,7 +12,7 @@ fi
 
 ##### Start script
 echo "###########################################################"
-echo "This script will install LibreNMS using NGINX webserver PHP-8.1, developed for Ubuntu 20.04 LTS"
+echo "This script will install LibreNMS using NGINX webserver PHP-8.1, developed for Ubuntu 22.04 LTS"
 echo "The script will perform apt install and update commands."
 echo "Use at your own risk"
 echo "###########################################################"
